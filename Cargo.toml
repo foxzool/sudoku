@@ -1,0 +1,14 @@
+[package]
+name = "bevy_sudoku"
+version = "0.1.0"
+edition = "2021"
+description = "A sudoku game made by Bevy game engine"
+readme = "README.md"
+keywords = ["game", "graphics", "bevy", "sudoku"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/foxzool/bevy_sudoku"
+
+
+[dependencies]
+bevy = "0.12.1"
+sudoku = "0.8.0"
