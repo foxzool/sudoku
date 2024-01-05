@@ -1,4 +1,5 @@
 use bevy::prelude::*;
+use bevy_sudoku::{board::BoardPlugin, generator::GeneratePlugin};
 
 fn main() {
     App::new()
@@ -9,5 +10,6 @@ fn main() {
             }),
             ..Default::default()
         }))
+        .add_plugins((BoardPlugin, GeneratePlugin))
         .run();
 }
