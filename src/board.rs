@@ -14,8 +14,6 @@ impl Plugin for BoardPlugin {
 }
 
 fn spawn_cells(mut commands: Commands, asset_server: Res<AssetServer>) {
-    commands.spawn(Camera2dBundle::default());
-
     let font = asset_server.load("fonts/FiraSans-Bold.ttf");
     commands.spawn(Camera2dBundle::default());
 
